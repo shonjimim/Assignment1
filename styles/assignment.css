@@ -24,12 +24,12 @@ box-sizing: border-box;
 
 
 nav{
-    width: 100%;
+    
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 16px 120px 16px 120px;
+    padding: 16px 120px;
     align-items: center;
     gap: 24px;
 }
@@ -56,15 +56,15 @@ nav{
 
 .banner {
      background-image: url(/assets/hero-bg.png);
-     max-width: 100%;
-     height: auto;
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 120px 134px 120px;
 
 }
 
 .banner-content{
-    padding: 115px 120px 180px 120px;
-    max-width: 1360px;
-    margin: 0 auto;
+    padding: 120px 40px;
     text-align: center;
 }
 
@@ -74,6 +74,9 @@ font-weight: bold;
 line-height: 84px;
 color: #FFFFFF;
 margin-bottom: 16px;
+max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .color-green{
@@ -114,7 +117,7 @@ margin-bottom: 16px;
 }
 
 #about{
-    padding: 0 120px 120px 120px;
+    padding: 0 120px 0px 120px;
 }
 
 .about-container{
@@ -133,6 +136,7 @@ margin-bottom: 16px;
 
 .section-heading h2{
     font-size: 48px;
+    padding-top: 80px;
     font-weight: bold;
     color: #001931;
     margin: 16px;
@@ -143,6 +147,7 @@ margin-bottom: 16px;
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+    margin-bottom: 44px;
 }
 
 .about-info{
@@ -154,19 +159,188 @@ margin-bottom: 16px;
 .info-card {
 padding: 24px;
 max-width: 322px;
+box-shadow: 0 0 8px 0 #00000016;
+border-radius: 8px;
 }
 
 .logo-bg{
     background-color: #f95555;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 60px;
     height: 60px;
     margin: 0 auto;
-
+margin-bottom: 16px;
+display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-card img{
     width: 32px;
     height: 32px;
+}
+
+.info-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.info-card p{
+font-size: 16px;
+line-height: 20px;
+color: #627382;
+}
+
+#solution{
+    padding: 120px;
+}
+
+.solution-container{
+     max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+ 
+.solution-info{
+    max-width: 520px;
+}
+
+.solution-p1{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.solution-info h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-p2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.solution-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.solution-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 6px;
+}
+
+.solution-item p {
+  margin: 0;
+  line-height: 20px;
+  font-size: 16px;
+  color: #001931;
+}
+
+.solution-item img {
+  width: 20px;
+  height: 20px;
+}
+
+#think {
+    padding: 2px 120px 120px 120px;
+
+}
+
+.think-container{
+    max-width: 1360px;
     margin: 0 auto;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.think-heading{
+    max-width: 1280px;
+}
+
+.think-heading h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.p1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.p2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    max-width: 350px;
+}
+
+.social{
+    max-width: 220px;
+}
+
+.social p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0 107px 16px 0;
+}
+
+.icons {
+    margin-right: 128px;
+    gap: 16px;
+    display: flex;
+}
+
+.footer-divider{
+    max-width: 1360px;
+    height: 1px;
+    color: #E5E7EB;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
 }
