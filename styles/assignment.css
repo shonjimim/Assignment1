@@ -55,7 +55,7 @@ nav{
 }
 
 .banner {
-     background-image: url(assets/hero-bg.png);
+     background-image: url(/assets/hero-bg.png);
      background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,8 +94,8 @@ max-width: 750px;
 }
 
 .btn-early{
-    width: 229;
-    height: 35;
+    width: 229px;
+    height: 35px;
     background-color: #FFFFFF;
     color: #30B868;
     font-size: 16px;
@@ -335,7 +335,7 @@ footer{
 .footer-divider{
     max-width: 1360px;
     height: 1px;
-    color: #E5E7EB;
+    background-color: #E5E7EB;
 }
 
 .footer-copy {
